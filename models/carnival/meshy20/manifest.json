@@ -1,0 +1,675 @@
+{
+ "erzeugtVon": "tools/bau_meshy20.mjs + tools/opt_meshy20_blender.py",
+ "blender": "Blender 4.0.2",
+ "zielTris": 24000,
+ "obergrenzeTris": 50000,
+ "texturKante": 1024,
+ "jpegQualitaet": 82,
+ "hinweis": "Quell-GLBs haben KEINE Skins und KEINE Animationsclips - die Laufzeitbewegung ist prozedurale Ganzobjekt-Animation.",
+ "anzahl": 20,
+ "gesamtTris": 479997,
+ "gesamtBytes": 20888588,
+ "rohBytes": 1503047432,
+ "modelle": [
+  {
+   "datei": "01_chainsaw_clown.glb",
+   "tris": 24000,
+   "trisRoh": 1879528,
+   "bytes": 1038252,
+   "bytesRoh": 73461520,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.64068,
+     -0.48872,
+     -0.95408
+    ],
+    "max": [
+     0.63833,
+     0.48814,
+     0.95232
+    ]
+   }
+  },
+  {
+   "datei": "02_demon_ringmaster.glb",
+   "tris": 24000,
+   "trisRoh": 1926884,
+   "bytes": 995520,
+   "bytesRoh": 74260852,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.46411,
+     -0.20893,
+     -0.95358
+    ],
+    "max": [
+     0.45843,
+     0.21446,
+     0.95161
+    ]
+   }
+  },
+  {
+   "datei": "03_faceless_ribbon_mime.glb",
+   "tris": 24000,
+   "trisRoh": 1932986,
+   "bytes": 1062220,
+   "bytesRoh": 74363244,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.38326,
+     -0.17754,
+     -0.9521
+    ],
+    "max": [
+     0.38083,
+     0.17759,
+     0.95115
+    ]
+   }
+  },
+  {
+   "datei": "04_skeletal_strongman.glb",
+   "tris": 24000,
+   "trisRoh": 1915788,
+   "bytes": 1019732,
+   "bytesRoh": 74515816,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.61645,
+     -0.23011,
+     -0.95279
+    ],
+    "max": [
+     0.6128,
+     0.22571,
+     0.95103
+    ]
+   }
+  },
+  {
+   "datei": "05_mallet_jester.glb",
+   "tris": 23999,
+   "trisRoh": 1936762,
+   "bytes": 967260,
+   "bytesRoh": 74888680,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.53109,
+     -0.38365,
+     -0.95217
+    ],
+    "max": [
+     0.54158,
+     0.38582,
+     0.95071
+    ]
+   }
+  },
+  {
+   "datei": "06_carnival_butcher.glb",
+   "tris": 24000,
+   "trisRoh": 1952414,
+   "bytes": 989692,
+   "bytesRoh": 75369612,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.55032,
+     -0.27162,
+     -0.95283
+    ],
+    "max": [
+     0.54994,
+     0.26757,
+     0.95181
+    ]
+   }
+  },
+  {
+   "datei": "07_plague_stiltwalker.glb",
+   "tris": 24000,
+   "trisRoh": 1912782,
+   "bytes": 1034008,
+   "bytesRoh": 74913332,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.3437,
+     -0.18884,
+     -0.95319
+    ],
+    "max": [
+     0.34321,
+     0.1921,
+     0.94989
+    ]
+   }
+  },
+  {
+   "datei": "08_balloon_skin_clown.glb",
+   "tris": 24000,
+   "trisRoh": 1897296,
+   "bytes": 962268,
+   "bytesRoh": 72518648,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.48291,
+     -0.20445,
+     -0.95217
+    ],
+    "max": [
+     0.48277,
+     0.20577,
+     0.95146
+    ]
+   }
+  },
+  {
+   "datei": "09_spring_boot_trickster.glb",
+   "tris": 23999,
+   "trisRoh": 1944598,
+   "bytes": 1045632,
+   "bytesRoh": 75610704,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.48983,
+     -0.17792,
+     -0.95242
+    ],
+    "max": [
+     0.4907,
+     0.17991,
+     0.95104
+    ]
+   }
+  },
+  {
+   "datei": "10_neon_wolfman.glb",
+   "tris": 24000,
+   "trisRoh": 1868514,
+   "bytes": 1127464,
+   "bytesRoh": 73858736,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.53215,
+     -0.28424,
+     -0.95188
+    ],
+    "max": [
+     0.53149,
+     0.26466,
+     0.94609
+    ]
+   }
+  },
+  {
+   "datei": "11_cyclops_acrobat.glb",
+   "tris": 24000,
+   "trisRoh": 1934820,
+   "bytes": 1016092,
+   "bytesRoh": 75054012,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.3726,
+     -0.15349,
+     -0.95283
+    ],
+    "max": [
+     0.37095,
+     0.14842,
+     0.95084
+    ]
+   }
+  },
+  {
+   "datei": "12_undead_ticket_taker.glb",
+   "tris": 23999,
+   "trisRoh": 1919692,
+   "bytes": 1015916,
+   "bytesRoh": 74311496,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.41215,
+     -0.23477,
+     -0.95254
+    ],
+    "max": [
+     0.415,
+     0.23342,
+     0.95112
+    ]
+   }
+  },
+  {
+   "datei": "13_ghost_bride.glb",
+   "tris": 24000,
+   "trisRoh": 1923220,
+   "bytes": 977164,
+   "bytesRoh": 74031748,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.47177,
+     -0.24942,
+     -0.95145
+    ],
+    "max": [
+     0.47256,
+     0.24172,
+     0.951
+    ]
+   }
+  },
+  {
+   "datei": "14_mechanical_monkey.glb",
+   "tris": 24000,
+   "trisRoh": 1904234,
+   "bytes": 1414964,
+   "bytesRoh": 83298824,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.63992,
+     -0.33528,
+     -0.95832
+    ],
+    "max": [
+     0.6421,
+     0.33382,
+     0.9505
+    ]
+   }
+  },
+  {
+   "datei": "15_fire_eater_clown.glb",
+   "tris": 24000,
+   "trisRoh": 1928598,
+   "bytes": 1030948,
+   "bytesRoh": 75201992,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.49689,
+     -0.19935,
+     -0.95213
+    ],
+    "max": [
+     0.49609,
+     0.24105,
+     0.94986
+    ]
+   }
+  },
+  {
+   "datei": "16_knife_harlequin.glb",
+   "tris": 24000,
+   "trisRoh": 1933562,
+   "bytes": 1012212,
+   "bytesRoh": 74945192,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.47805,
+     -0.19023,
+     -0.95222
+    ],
+    "max": [
+     0.47891,
+     0.19345,
+     0.9509
+    ]
+   }
+  },
+  {
+   "datei": "17_coffin_escape_artist.glb",
+   "tris": 24000,
+   "trisRoh": 1930722,
+   "bytes": 1081240,
+   "bytesRoh": 75847224,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.49354,
+     -0.24433,
+     -0.95318
+    ],
+    "max": [
+     0.49496,
+     0.23658,
+     0.9518
+    ]
+   }
+  },
+  {
+   "datei": "18_undead_popcorn_vendor.glb",
+   "tris": 24000,
+   "trisRoh": 1941344,
+   "bytes": 1063624,
+   "bytesRoh": 75436644,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.46694,
+     -0.15621,
+     -0.95221
+    ],
+    "max": [
+     0.46306,
+     0.1664,
+     0.9505
+    ]
+   }
+  },
+  {
+   "datei": "19_carousel_knight.glb",
+   "tris": 24000,
+   "trisRoh": 1958710,
+   "bytes": 1039204,
+   "bytesRoh": 76476380,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.45467,
+     -0.19529,
+     -0.95249
+    ],
+    "max": [
+     0.4546,
+     0.19525,
+     0.95205
+    ]
+   }
+  },
+  {
+   "datei": "20_electric_magician.glb",
+   "tris": 24000,
+   "trisRoh": 1938794,
+   "bytes": 995176,
+   "bytesRoh": 74682776,
+   "uv": true,
+   "texturen": [
+    {
+     "name": "base_color",
+     "vorher": [
+      2048,
+      2048
+     ],
+     "nachher": [
+      1024,
+      1024
+     ]
+    }
+   ],
+   "bbox": {
+    "min": [
+     -0.37637,
+     -0.21271,
+     -0.95203
+    ],
+    "max": [
+     0.3751,
+     0.21075,
+     0.95068
+    ]
+   }
+  }
+ ]
+}
