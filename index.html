@@ -54,8 +54,13 @@
      Copyright-Zeile trifft; die bleiben unveraendert. Doppelte ID-Spezifitaet, sonst
      gewinnt die allgemeine Regel #start p. */
   /* PRESS START (0904, Redesign F): Abstand zur Streckenwahl mitgeschrumpft, damit beide
-     im selben Verhaeltnis tiefer sitzen statt sich anzunaehern. */
-  #start p#pressstart{margin:0 0 clamp(40px,10.5vh,90px)}
+     im selben Verhaeltnis tiefer sitzen statt sich anzunaehern.
+     Redesign G: margin-top auf 0 zurueckgesetzt - #start ist flex-end und PRESS START das
+     erste Kind, ein margin-top am ersten Item verpufft dort oben im Leeren und bewegt den
+     Text NICHT. Um PRESS START allein nach oben zu holen, muss stattdessen der Abstand
+     ZWISCHEN PRESS START und der Streckenwahl (margin-bottom) waechst; die Streckenwahl
+     bleibt dabei an ihrer Position, weil sie naeher am unteren Rand des flex-end-Blocks sitzt. */
+  #start p#pressstart{margin:0 0 clamp(64px,13.5vh,110px)}
   @keyframes blink{50%{opacity:.25}}
   /* INTRO: schwarze Vollflaeche, auf der die Einstiegszeilen nacheinander stehen.
      Liegt ueber allem (auch ueber dem Startscreen, z-index 10). */
