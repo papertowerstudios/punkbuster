@@ -29,8 +29,11 @@
   /* padding-bottom (0904, Redesign E): die Auswahl sitzt jetzt TIEFER im Bild - dafuer ist das
      Polster kleiner und haengt an der Fensterhoehe, damit auf kleinen Laptops nichts in die
      Steuerungszeile (bottom:34px) laeuft. */
+  /* padding-bottom (0904, Redesign F): auf Dr. Jozes Wunsch nochmal ein Stueck tiefer als
+     Redesign E - die ganze Auswahl (PRESS START bis Bestwert-Zeile) haengt am Fuss des
+     Flex-Containers und wandert dadurch geschlossen nach unten. */
   #start{position:fixed;inset:0;z-index:10;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;
-    padding-bottom:clamp(104px,19vh,160px);box-sizing:border-box;   /* haelt den Fliessbereich ueber der Steuerzeile */
+    padding-bottom:clamp(78px,14vh,124px);box-sizing:border-box;   /* haelt den Fliessbereich ueber der Steuerzeile */
     background-image:linear-gradient(180deg, rgba(10,4,30,0) 46%, rgba(10,4,30,.35) 66%, rgba(8,3,24,.78) 84%), url(startbg.png);
     background-size:cover, cover;background-position:center top, center top;image-rendering:pixelated;
     cursor:pointer}
@@ -50,7 +53,9 @@
      ueber den Titel im Startbild. Eigene ID, weil #start p auch die Steuerungs- und
      Copyright-Zeile trifft; die bleiben unveraendert. Doppelte ID-Spezifitaet, sonst
      gewinnt die allgemeine Regel #start p. */
-  #start p#pressstart{margin:0 0 clamp(56px,14vh,120px)}
+  /* PRESS START (0904, Redesign F): Abstand zur Streckenwahl mitgeschrumpft, damit beide
+     im selben Verhaeltnis tiefer sitzen statt sich anzunaehern. */
+  #start p#pressstart{margin:0 0 clamp(40px,10.5vh,90px)}
   @keyframes blink{50%{opacity:.25}}
   /* INTRO: schwarze Vollflaeche, auf der die Einstiegszeilen nacheinander stehen.
      Liegt ueber allem (auch ueber dem Startscreen, z-index 10). */
